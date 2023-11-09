@@ -1627,7 +1627,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #81d2e2;
+		background: #081B5C;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1771,18 +1771,19 @@ input, select, textarea {
 
 /* Box */
 	.headerBanner-wrapper{
-		background-image: url('images/beachResortBG.jpg');
+		position: relative;
+		background-image: url('images/flippedLinaw.jpg');
 		background-size: cover;
-		background-position: 0% 70%; /* Adjust the percentage to shift the image to the left */
+		background-position: 0% 20%; /* Adjust the percentage to shift the image to the left */
 		border-radius: 0px; /* Adjust the border-radius as needed */
-		height: 100vh;
+		height: 90vh;
 	}
 	.dark-overlay{
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (last parameter) to control darkness */
+			background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value (last parameter) to control darkness */
 	}
 	.box-wrapper {
 		position: relative;
@@ -1921,8 +1922,8 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 1.5em 0 0em 0;
-		height: 7em;
+		padding: 0em 0 0em 0;
+		height: 4em;
 	}
 
 	#features-wrapper {
@@ -2012,7 +2013,7 @@ input, select, textarea {
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
-					color: white
+					color: #081B5C
 				}
 
 				#nav ul li > ul {
@@ -2020,7 +2021,8 @@ input, select, textarea {
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
-					background: #8BD5E4;
+					background: rgb(70, 70, 70);
+					color: white;
 				}
 
 				#nav ul li.active a, #nav ul li.active span {
@@ -2028,7 +2030,7 @@ input, select, textarea {
 				}
 
 				#nav ul li.current a {
-					color: #fff;
+					color: #081B5C;
 				}
 
 	.dropotron {
@@ -2096,7 +2098,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		padding: 7.5em 4.5em 4.5em 4.5em;
+		padding: 10em 4.5em 4.5em 4.5em;
 	}
 	.banner-row{
 		flex-direction: column;
@@ -2113,7 +2115,7 @@ input, select, textarea {
 			margin: 0;
 			color: white;
 			font-family: 'Montserrat', sans-serif; /* Use 'Montserrat' or the appropriate font name */
-			font-weight: 650;
+			font-weight: 800;
 		}
 
 		.banner-div{
@@ -2145,6 +2147,35 @@ input, select, textarea {
 			#banner ul li {
 				padding-left: 0;
 			}
+
+
+/* Record */
+	
+	#record-wrapper{
+		position: relative;
+		bottom: 1em;
+	}
+		.record-container{
+			background-color: #081B5C ;
+			border-radius: 10px;
+		}
+
+		.record-section{
+			display: flex;
+		}
+
+			.inner h3, .inner h2{
+				color: white;
+				text-align: center;
+			}
+
+		.record-div-row{
+			display: flex;
+			justify-content: center;
+		}
+
+
+
 
 /* Footer */
 
