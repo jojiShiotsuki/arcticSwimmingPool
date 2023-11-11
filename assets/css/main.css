@@ -2692,7 +2692,15 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 768px) {
-
+		.widget.contact ul li a:before {
+			color: black;
+			font-size: 1.2em;
+			line-height: inherit;
+		}
+		.widget.contact ul li a {
+			width: 2em;
+			height: 2.2em;
+		}
 		.row {
 			align-items: center;
 		}
