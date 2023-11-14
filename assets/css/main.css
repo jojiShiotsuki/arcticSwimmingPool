@@ -2269,17 +2269,26 @@ input, select, textarea {
 /* contact */
 #contact-wrapper h1{
 	font-size: 2.5em;
-	margin: 0% 2% 1% 0%;
+	margin: 0% 0% 1% 0%;
 	color: #081B5C;
 }
+.contact-container{
+	text-align: center;
+}
 .contact-div-container{
-	margin-top: 6%;
+	margin-top: 12%;
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
 	.contact-div{
 		display: flex;
 		flex-direction: column;
+		border-right: 1px solid gray;
+		padding-right: 8%;
+	}
+	.contact-div:last-child{
+		border-right: none;
 	}
 		.contact-div h3{
 			margin-bottom: 2.5em;
@@ -2355,7 +2364,7 @@ input, select, textarea {
 
 		#features-wrapper {
 			padding: 3em 0 3em 0;
-			height: 90vh;
+			height: 65vh;
 			background-color: #081B5C;
 			border: 0px solid #f7f7f7;
 			border-radius: 0;
@@ -2364,7 +2373,7 @@ input, select, textarea {
 		#contact-wrapper {
 			background: #f7f7f7;
 			padding: 6em 0 7em 0;
-			height: 80vh;
+			height: 65vh;
 		}
 	}
 		
@@ -2734,7 +2743,7 @@ input, select, textarea {
 			text-align: center;
 		}
 		.container h1{
-			padding-top: 10%;
+			padding-top: 3%;
 			text-align: center;
 		}
 		.container h5{
@@ -2743,6 +2752,7 @@ input, select, textarea {
 		}
 		.contact-div{
 			align-items: center;
+			border: none;
 		}
 		.contact-div-container{
 			justify-content: space-evenly;
