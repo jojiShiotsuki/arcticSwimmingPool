@@ -3007,6 +3007,18 @@ input, select, textarea {
 		padding: 0 15px 40px 15px;
 		height: 194vh;
 	}
+	.contact-div-container {
+		flex-direction: column;
+	}
+	#contact-wrapper {
+		height: 90vh;
+	}
+	.contact-div span{
+		margin-bottom: 7%;
+	}
+	.contact-div h3 {
+		margin-bottom: 1.5em;
+	}
 }
 
 /* XSS */
@@ -3025,7 +3037,7 @@ input, select, textarea {
 	}
 	#features-wrapper {
 		padding: 0 15px 40px 15px;
-		height: 187vh;
+		height: 190vh;
 	}
 	#banner .button.icon:before {
 		display: none;
@@ -3036,7 +3048,10 @@ input, select, textarea {
 }
 /* XSSS */
 @media screen and (max-width: 320px) {
-
+	#features-wrapper {
+		padding: 0 15px 40px 15px;
+		height: 180vh;
+	}
 	#logo img {
 		width: 65%;
 		margin-top: -7.65em;
