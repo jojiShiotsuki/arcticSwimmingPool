@@ -3036,7 +3036,7 @@ input, select, textarea {
 	}
 	#features-wrapper {
 		padding: 0 15px 40px 15px;
-		height: 240vh;
+		height: 233vh;
 	}
 	#banner .button.icon:before {
 		display: none;
@@ -3045,7 +3045,7 @@ input, select, textarea {
 		padding-right: 0 !important;
 	}
 	#contact-wrapper {
-		height: 115vh;
+		height: 110vh;
 	}
 }
 /* XSSS */
