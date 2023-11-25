@@ -2974,6 +2974,9 @@ input, select, textarea {
 /* XS */
 @media screen and (max-width: 425px) {
 
+	.whiteLogo {
+		width: 165%;
+	}
 	#logo img {
 		width: 50%;
 		margin-top: -8.05em;
@@ -3024,6 +3027,9 @@ input, select, textarea {
 
 @media screen and (max-width: 375px) {
 
+	.whiteLogo {
+		width: 175%;
+	}
 	#logo img {
 		width: 65%;
 		margin-top: -9.05em;
