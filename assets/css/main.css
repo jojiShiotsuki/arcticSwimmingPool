@@ -2285,7 +2285,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		border-right: 1px solid gray;
-		padding-right: 8%;
+		padding-right: 10%;
 	}
 	.contact-div:last-child{
 		border-right: none;
