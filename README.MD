@@ -1,11 +1,11 @@
 
 # Arctic Swimming Pool Project
 
-Welcome to the Arctic Swimming Pool project repository! This project is dedicated to developing a stunning website for a swimming pool construction business based in the Arctic region.
+Welcome to the Arctic Swimming Pool project repository! This project is for my client's arctic swimming pool website.
 
 ## Project Overview
 
-Arctic Swimming Pool aims to showcase the client's services, projects, and expertise in creating exceptional swimming pool designs in the challenging Arctic environment. The website is designed to be visually appealing, informative, and user-friendly.
+Arctic Swimming Pool aims to showcase the client's services, projects, and expertise in creating exceptional swimming pool designs. The website is designed to be visually appealing, informative, and user-friendly.
 
 ## Key Features
 
@@ -23,8 +23,6 @@ Arctic Swimming Pool aims to showcase the client's services, projects, and exper
 
 - **JavaScript:** Adding interactivity and dynamic features.
 
-- **[Add any additional technologies/frameworks used]**
-
 ## Project Structure
 
 The project is organized as follows:
@@ -39,13 +37,6 @@ The project is organized as follows:
 
 - **`/docs`**: Project documentation, including user guides or any relevant documentation.
 
-## Getting Started
-
-To view the project locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/arctic-swimming-pool.git`
-
-2. Open the `index.html` file in your preferred web browser.
 
 ## Contributions
 
