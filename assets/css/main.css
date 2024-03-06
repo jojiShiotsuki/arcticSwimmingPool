@@ -1482,7 +1482,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 800;
-		margin: 0 0 1em 0;
+		margin: 0 2em 1em 0;
 		font-size: 0.8em;
 		color: #444;
 	}
@@ -1495,8 +1495,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		width: 100%;
-		border-radius: 8px;
-		border: solid 1px #eee;
+		border-radius: 30px;
+		border: solid 2px #7b7b7b78;
 	}
 
 		form input[type="text"]:focus,
@@ -1510,7 +1510,7 @@ input, select, textarea {
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"] {
-		line-height: 3em;
+		line-height: 2.5em;
 		padding: 0 1em;
 	}
 
@@ -1794,7 +1794,6 @@ input, select, textarea {
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
-		height: 80vh;
 		color: #fff; /* Add text color */
 	}
 		
@@ -1804,7 +1803,7 @@ input, select, textarea {
 		}
 
 			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
+				padding: 2em 2em 3em 2em;
 			}
 
 			.box.feature h2 {
@@ -1928,6 +1927,10 @@ input, select, textarea {
 
 	#features-wrapper {
 		padding: 3em 0 3em 0;
+		height: 100vh;
+		background-color: #081B5C;
+		border: 80px solid #f7f7f7;
+		border-radius: 100px;
 	}
 
 	#main-wrapper {
@@ -1936,8 +1939,32 @@ input, select, textarea {
 		padding: 5em 0 5em 0;
 	}
 
+	#about-wrapper {
+		background: #f7f7f7;;
+		padding: 5em 0 5em 0;
+	}
+
+	#contact-wrapper {
+		background: #f7f7f7;;
+		padding: 5em 0 5em 0;
+	}
+
+
 	#footer-wrapper {
-		padding: 6em 0 8em 0;
+		padding: 6em 0 0em 0;
+		background-color: #081B5C;
+		border-width: 50px 50px 0px 50px; /* Adjust the values as needed */
+		border-style: solid;
+		border-color: #f7f7f7; /* You can set the color as needed */
+		border-radius: 80px;
+	}
+
+	.footer-row{
+		display: flex;
+		justify-content: space-around;
+	}
+	.footer-div-info{
+		border-top: 20%;
 	}
 
 /* Header */
@@ -2102,6 +2129,7 @@ input, select, textarea {
 	}
 	.banner-row{
 		flex-direction: column;
+		margin-top: 3.6em;
 	}
 
 		#banner h2 {
@@ -2162,7 +2190,10 @@ input, select, textarea {
 
 		.record-section{
 			display: flex;
+			
 		}
+			
+			 
 
 			.inner h3, .inner h2{
 				color: white;
@@ -2172,15 +2203,116 @@ input, select, textarea {
 		.record-div-row{
 			display: flex;
 			justify-content: center;
+			border-right: 1px solid #fff; /* Add white vertical line */
+        	padding: 20px; /* Add some padding to separate text from the line */
 		}
+			.record-div-row:last-child {
+				border-right: none;
+				padding-right: 0;
+			}
+
+
+/* about */
+
+	.about-container{
+		display: flex;
+		height: 70vh;
+		align-items: center;
+		
+	}
+		.about-image-container{
+			margin-right: 5%;
+			width: 200%;
+		}
+		.about-images {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 10px; /* Adjust the gap between images as needed */
+			height: 100%;
+			
+		}
+			.about-image{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 8px;
+			}
+	.about-desc-container h3, .about-desc-container h2{
+		color: #081B5C;
+	}
+	.about-desc-container h3{
+		font-size: 2.5em;
+	}
 
 
 
+/* feature */
+.feature-container h1{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	margin: 0% 2% 3% 2%;
+}
+.feature-container h2{
+	text-align: center;
+	color: #081B5C;
+	margin: 2% 2% 5% 2%;
+}
+.feature-box{
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	height: 97%;
+}
 
+/* contact */
+.contact-container h1{
+	text-align: center;
+	font-size: 2em;
+	margin: 0% 2% 3% 2%;
+	color: #081B5C;
+}
+	form {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	label {
+		width: 100%;
+	}
+		.contact-div-subject label, .contact-div-message label{
+			padding-right: 2em;
+		}
+	input,
+	textarea {
+		width: 100%;
+		padding: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid gray;
+	}
+	input{
+		width: 100%;
+	}
+
+	button {
+		background-color: #081B5C;
+		color: #fff;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+
+		.contact-div-name,.contact-div-email{
+			display: flex;
+			justify-content: space-evenly;
+		}
 /* Footer */
 
 	#footer {
 		margin-top: 0;
+		color: white;
 	}
 
 		#footer a {
@@ -2188,7 +2320,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #aaa;
+		color: white;
 		padding: 4em 0 0 0;
 		text-align: center;
 	}
@@ -2196,6 +2328,14 @@ input, select, textarea {
 		#copyright a {
 			color: inherit;
 		}
+	.whiteLogo{
+		width: 100%;
+		height: auto;
+	}
+	.contact-section h3{
+		color:white;
+		padding-top: 18%;
+	}
 
 /* XLarge */
 
