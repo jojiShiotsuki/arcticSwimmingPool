@@ -2879,11 +2879,12 @@ input, select, textarea {
 
 			#header-wrapper {
 				padding: 3em 0 1.5em 0;
+				display: none;
 
 			}
 
 			#banner-wrapper {
-				padding: 15% 15px 0 15px;
+				padding: 22% 15px 0 15px;
 				
 			}
 			#features-wrapper {
@@ -2960,7 +2961,34 @@ input, select, textarea {
 		width: 50%;
 		margin-top: -8.05em;
 	}
-
+	#banner .button {
+		width: 100%;
+		margin-bottom: 0.5em;
+	}
+	#header-wrapper {
+		padding: 0;
+		display: none;
+	}
+	#banner-wrapper {
+		padding: 30% 15px 0 15px;
+	}
+	.inner h2 {
+		font-size: 2.5em;
+		margin-bottom: 0.4em;
+	}
+	.inner h3 {
+		font-size: 0.8em;
+		color: white;
+		text-align: center;
+	}
+	section, article {
+		clear: both;
+		margin-bottom: 0em !important;
+	}
+	#features-wrapper {
+		padding: 0 15px 40px 15px;
+		height: 194vh;
+	}
 }
 
 /* XSS */
@@ -2972,7 +3000,21 @@ input, select, textarea {
 		margin-top: -9.05em;
 		margin-right: 0;
 	}
-
+	.inner h3 {
+		font-size: 0.7em;
+		color: white;
+		text-align: center;
+	}
+	#features-wrapper {
+		padding: 0 15px 40px 15px;
+		height: 187vh;
+	}
+	#banner .button.icon:before {
+		display: none;
+	}
+	input[type="button"].icon, input[type="submit"].icon, input[type="reset"].icon, button.icon, .button.icon {
+		padding-right: 0 !important;
+	}
 }
 /* XSSS */
 @media screen and (max-width: 320px) {
